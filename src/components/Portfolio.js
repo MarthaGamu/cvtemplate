@@ -22,10 +22,13 @@ text-align:center;
     background-color:white;
     z-index:1;
     cursor:pointer;
+  transition: width 2s, height 4s;
 }
+
 .gridItems{
     background-color:black;
     position:relative;
+    border: 0px solid black;
     .Innergrid{
         display:none;
     }
@@ -39,22 +42,30 @@ text-align:center;
         color:black;
         font-size:30px;
         position:absolute;
-       
         top:5%;
         left:5%;
         right:5%;
         bottom:5%;
+        
         padding:50px 60px 50px 60px;
         border: 7px solid black;
-       
+        transition-property:border;
+        transition-delay:100s;
+        transition-duration:2s;
+
         
         color:black;
         
         .more{
-            padding:10px;
+            padding:8px;
             font-weight:500px;
+            background:black;
+            color:white;
+            border:unset;
         }
+        
     }
+    
 }
 .gridItems  img{
     width:100%;
@@ -62,6 +73,10 @@ text-align:center;
     object-fit:cover;
 }
 
+.gridItems img:hover{
+    display:none;
+    
+}
 `;
 function Portfolio() {
     return (

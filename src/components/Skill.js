@@ -24,8 +24,8 @@ color:black;
         padding-top:40px;
     }
     .skillItem{
-        width:200px;
-        height:80px;
+        width:150px;
+        height:50px;
         padding:30px 30px 30px 30px;
         background:black;
         color:white;
@@ -51,16 +51,16 @@ function Skill() {
             <h1>My Skill Set</h1>
             <div className='skills'>
                 <div className='skillItem'>
-                    <h1> CSS3</h1>
+                    <h2> CSS3</h2>
                     </div>
                     <div className='skillItem'>
-                    <h1>HTML5</h1>
+                    <h2>HTML5</h2>
                     </div>
                     <div className='skillItem'>
-                   <h1> javascript</h1>
+                   <h2> JAVASCRIPT</h2>
                     </div>
                    <div className='skillItem'>
-                  <h1> REACT</h1>
+                  <h2> REACT</h2>
                     </div>
                 </div>
         </div>
